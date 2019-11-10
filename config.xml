@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
-
-
-
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.phonegap.example"
@@ -12,7 +8,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Essinge hållplats</name>
-    <plugin name="cordova-plugin-whitelist"/>
+  <plugin name="cordova-plugin-whitelist"/>
   <description>
       En app som visar avgångar från Stora Essingen
   </description>
@@ -21,6 +17,7 @@
       Mikael Engström
   </author>
 <icon src="icon.png"/>
+
 <allow-intent href="http://*/*" />
 <allow-intent href="https://*/*" />
 <access origin="*"/>
