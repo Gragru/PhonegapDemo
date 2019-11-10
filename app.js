@@ -27,7 +27,7 @@ function visaavgangar(siteId) {
                         devtext += obj.Text;
                     }
                 }
-                span.innerHTML = `${departure.GroupOfLine + ":" + departure.DisplayTime + ":" + departure.LineNumber + ":" + devtext}`;
+                span.innerHTML = departure.GroupOfLine + " : " + departure.LineNumber + " : " + departure.DisplayTime + " : " + devtext;
                 append(li, img);
                 append(li, span);
                 append(ul, li);
