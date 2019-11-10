@@ -10,7 +10,7 @@ function append(parent, el) {
 function visaavgangar(siteId) {
     const ul = document.getElementById('departures');
     ul.innerHTML = "";
-    const url = "http://api.sl.se/api2/realtimedeparturesV4.json?key=f1b7512b0672495d93ef0037f5f1b297&siteid=" + siteId + "&timewindow=20";
+    const url = "https://cors-anywhere.herokuapp.com/http://api.sl.se/api2/realtimedeparturesV4.json?key=f1b7512b0672495d93ef0037f5f1b297&siteid=" + siteId + "&timewindow=20";
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
