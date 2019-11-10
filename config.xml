@@ -17,4 +17,7 @@
       Mikael Engström
   </author>
 <icon src="icon.png"/>
+<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<access origin="*"/>
 </widget>
