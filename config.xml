@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<plugin name="cordova-plugin-whitelist"/>
+
 
 
 
@@ -12,7 +12,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Essinge hållplats</name>
-
+    <plugin name="cordova-plugin-whitelist"/>
   <description>
       En app som visar avgångar från Stora Essingen
   </description>
